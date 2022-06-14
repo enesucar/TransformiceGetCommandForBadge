@@ -95,7 +95,7 @@
     }
 
     function codeAddress() {
-        var userName = document.getElementById("userName").value;
+        var userName = document.getElementById("userName").value.toLowerCase();
         var text = CreateStringForUser(userName);
 
         const span = document.getElementById('data');
